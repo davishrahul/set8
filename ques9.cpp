@@ -12,7 +12,7 @@ int main()
             count++;
         }
     }
-    if(count>0)
+    if(count>0 || product==0)
     {
         cout<<"yes";
     }
